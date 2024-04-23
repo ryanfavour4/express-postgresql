@@ -1,0 +1,48 @@
+{
+    "usersData": [
+        {
+            "_id": "u123",
+            "package": "p456",
+            "transactions": [
+                "t789",
+                "t012",
+                "t345",
+                "t678",
+                "t901"
+            ],
+            "userId": "u234",
+            "email": "john.doe@example.com",
+            "totalBalance": {
+                "$numberDecimal": "50000.00"
+            },
+            "billingInformation": {
+                "addressLine1": "123 Main St",
+                "addressLine2": "Apt 4B",
+                "city": "New York",
+                "district": "Manhattan",
+                "province": "New York",
+                "zip": "10001",
+                "country": "United States",
+                "firstName": "John",
+                "lastName": "Doe",
+                "mobilePhoneNumber": "1234567890"
+            },
+            "transferInformation": {
+                "address": "456 Elm St",
+                "nearestLandmark": "Central Park",
+                "lga": "Okota",
+                "state": "New York",
+                "email": "john.doe@example.com",
+                "zip": "10002",
+                "country": "United States",
+                "mobilePhoneNumber": "1234567890"
+            },
+            "paymentStatus": "PAID",
+            "accountStatus": "ACTIVE",
+            "createdAt": "2023-05-29T08:55:16.463Z",
+            "updatedAt": "2023-06-05T08:52:27.082Z",
+            "__v": 0,
+            "assignedBankId": "b789"
+        }
+    ]
+}
